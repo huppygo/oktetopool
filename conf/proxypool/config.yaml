@@ -20,13 +20,13 @@ crontime:             # v0.4。x默认60(分钟)。弃用最新版本
 
 # 速度测试
 speedtest: true         # 这将消耗巨大的网络资源。
-speedtest-interval: 15  # 默认720(分钟)
-connection: 10          # 同时速度测试连接的数量
+speedtest-interval: 720  # 默认720(分钟)
+connection: 50          # 同时速度测试连接的数量
 timeout: 5              # 超时:5 #默认10(秒)。
-## 积极代理速度测试
-active-interval: 15     # 默认 60 (min)
-active-frequency: 20    # 默认 100 (每个时间间隔内的请求)
-active-max-number: 20   # 默认100. 如果超过这个数字的活动代理,将弃用额外的速度
+## 响应代理速度测试
+active-interval: 60     # 默认 60 (min)
+active-frequency: 100    # 默认 100 (每个时间间隔内的请求)
+active-max-number: 100   # 默认100. 如果超过这个数字的活动代理,将弃用额外的速度
 
 # cloudflare api
 cf_email: ""
