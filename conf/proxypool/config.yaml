@@ -12,7 +12,7 @@ source-files:
 # ======= 可选项，留空使用default值  =======
 
 # postgresql database info 数据库信息
-database_url: ""
+database_url: "postgres://postgres:xiaoling3579@39.99.249.150:5846/postgres"
 
 # 每一个爬行的时间间隔
 crawl-interval:       # 爬行时间间隔v0.5。x默认60(分钟)
