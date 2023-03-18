@@ -7,6 +7,10 @@
 - type: clash
   options:
     url: https://klausvpn.posyao.com/clash/proxies
+    
+- type: clash
+  options:
+    url: https://proxypool.neocities.org/clash/proxies
 
 - type: clash
   options:
