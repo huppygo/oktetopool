@@ -1,32 +1,32 @@
 # your domain
-domain: proxypool-huppygo.cloud.okteto.net
+domain: proxypool-wing0110210317.cloud.okteto.net
 port:  12580
 
 # source list file
 source-files:
   # use local file
-  #- /proxypool-src/conf/proxypool/source.yaml
+  # - /proxypool-src/conf/proxypool/source.yaml
   # use web file
-   - https://dl.huppygovip.repl.co/proxypool/source.yaml
+  - https://dl.huppygovip.repl.co/proxypool/source.yaml
 
 # ======= 可选项，留空使用default值  =======
 
-# postgresql database info 数据库信息
+# postgresql database info
 database_url: "postgres://postgres:xiaoling3579@39.99.249.150:5846/postgres"
 
-# 每一个爬行的时间间隔
-crawl-interval:       # 爬行时间间隔v0.5。x默认60(分钟)
-crontime:             # v0.4。x默认60(分钟)。弃用最新版本
+# interval between each crawling
+crawl-interval:       # v0.5.x default 60 (minutes)
+crontime:             # v0.4.x default 60 (minutes). Deprecated in the newest version
 
-# 速度测试
-speedtest: ture         # 这将消耗巨大的网络资源。
-speedtest-interval: 720  # 默认720(分钟)
-connection: 5          # 同时速度测试连接的数量
-timeout: 20              # 超时:5 #默认10(秒)。
-## 响应代理速度测试
-active-interval: 60     # 默认 60 (min)
-active-frequency: 100    # 默认 100 (每个时间间隔内的请求)
-active-max-number: 100   # 默认100. 如果超过这个数字的活动代理,将弃用额外的速度
+# speed test
+speedtest: true         # default false. Warning: this will consume large network resources.
+speedtest-interval: 15  # default 720 (min)
+connection: 10          # default 5. The number of speed test connections simultaneously
+timeout: 5              # default 10 (seconds).
+## active proxy speed test
+active-interval: 15     # default 60 (min)
+active-frequency: 20    # default 100 (requests per interval)
+active-max-number: 20   # default 100. If more than this number of active proxies, the extra will be deprecated by speed
 
 # cloudflare api
 cf_email: ""
