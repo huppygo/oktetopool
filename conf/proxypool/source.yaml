@@ -96,6 +96,13 @@
   options:
     url: https://ghproxy.com/https://raw.githubusercontent.com/vpei/Free-Node-Merge/main/o/proxies.txt
 
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/freebaipiao/freebaipiao/main/freebaipiao.yaml
+
+- type: clash
+  options:
+    url: https://raw.githubusercontent.com/freebaipiao/freebaipiao/main/freebaipiao.yaml
 
 - type: subscribe
   options:
