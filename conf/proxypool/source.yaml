@@ -153,6 +153,14 @@
   options:
     url: https://v2ray.banyunxiaoxi.ml/
 
+- type: subscribe
+  options:
+    url: https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub
+
+- type: subscribe
+  options:
+    url: https://cdn.jsdelivr.net/gh/freebaipiao/freebaipiao@main/freebaipiaov2.txt
+
 # 网页模糊抓取
 - type: webfuzz
   options:
