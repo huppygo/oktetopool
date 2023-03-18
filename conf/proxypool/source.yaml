@@ -4,87 +4,87 @@
     url: 
 
 # 订阅链接
-- type: subscribe
+- type: clash
   options:
     url: https://klausvpn.posyao.com/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: http://www.lander.work/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://proxy.yugogo.xyz/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://free.iam7.tk/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: http://140.83.56.108/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: http://81.70.255.175:8080/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: http://69.31.134.203:9443/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://101.64.235.243:8443/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://193.123.84.62/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: http://192.3.165.127:9443/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: http://140.83.56.108/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://123.60.147.120/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://123.60.147.120/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: http://43.154.34.7/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://101.64.235.179:8443/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: http://150.158.36.61:8082/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://101.64.235.156:8443/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://free.jingfu.cf/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://20.239.69.6/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://proxypool1999.banyunxiaoxi.icu/clash/proxies
 
-- type: subscribe
+- type: clash
   options:
     url: https://proxypool.kimi.ee/clash/proxies
 
