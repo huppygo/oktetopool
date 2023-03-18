@@ -19,10 +19,10 @@ crawl-interval:       # 爬行时间间隔v0.5。x默认60(分钟)
 crontime:             # v0.4。x默认60(分钟)。弃用最新版本
 
 # 速度测试
-speedtest: flas         # 这将消耗巨大的网络资源。
+speedtest: ture         # 这将消耗巨大的网络资源。
 speedtest-interval: 1080  # 默认720(分钟)
-connection: 1          # 同时速度测试连接的数量
-timeout: 5              # 超时:5 #默认10(秒)。
+connection: 5          # 同时速度测试连接的数量
+timeout: 20              # 超时:5 #默认10(秒)。
 ## 响应代理速度测试
 active-interval: 60     # 默认 60 (min)
 active-frequency: 100    # 默认 100 (每个时间间隔内的请求)
